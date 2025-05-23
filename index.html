@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        
+        /* Header & Navigation */
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: #efefef;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .hero h2 {
+            margin: 0 0 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        
+        /* Main Content */
+        main {
+            margin: 20px 0;
+        }
+        article {
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        article h2 {
+            margin-top: 0;
+        }
+        pre.code {
+            background: #272822;
+            color: #f8f8f2;
+            padding: 10px;
+            overflow-x: auto;
+            border-radius: 4px;
+        }
+        code {
+            font-family: Consolas, "Courier New", monospace;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 10px 0;
+        }
+        a {
+            color: #4CAF50;
+        }
+        
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Blog</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to My Blog</h2>
+            <p>A simple blog template for quick posts, code snippets, images and more.</p>
+            <a class="btn" href="#post1">Read Latest Post</a>
+        </div>
+    </section>
+    
+    <main class="container">
+        <article id="post1">
+            <h2>Blog Post Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus ac diam vel consectetur. Aliquam erat volutpat.</p>
+            <p>Below is an example code snippet:</p>
+            <pre class="code"><code>
+// Sample JavaScript Code
+function greet(name) {
+    console.log('Hello, ' + name + '!');
+}
+greet('World');
+            </code></pre>
+            <p>And here’s an image:</p>
+            <img src="https://via.placeholder.com/800x400" alt="Placeholder Image">
+            <p>For more details, visit <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>.</p>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
